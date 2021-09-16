@@ -1,0 +1,160 @@
+body{
+  margin-right: 5%;
+  margin-left:5%;
+}
+main {
+  max-width: 720px;
+  margin: 5% auto;
+}
+.card {
+  box-shadow: 10px 10px  10px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+h1{
+  text-align: center;
+}
+button{
+  padding: 5px 15px;
+  border: none;
+  background: darkorange;
+}
+.card .card_title {
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+}
+.card .card_body {
+  padding: 0 40px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.card .card_body > .half {
+  box-sizing: border-box;
+  padding: 0 15px;
+  flex: 1 0 50%;
+}
+.card .card_body .featured_text h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  line-height: 50px;
+  color: #181e38;
+}
+.card .card_body .featured_text p {
+  margin: 0;
+  padding: 0;
+}
+.card .card_body .featured_text p.price {
+  font-family: sans-serif;
+  color: #252525;
+  font-size: 26px;
+}
+
+.card .card_body .image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.card .card_body .description {
+  margin-bottom: 25px;
+}
+.card .card_body .reviews .stars > li {
+  display: inline-block;
+}
+.card .card_body .reviews .stars > li .fa {
+  color: #f7c01b;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+} 
+body{
+  margin-right: 5%;
+  margin-left:5%;
+}
+
+nav{
+  height: 90px;
+  }
+nav img{
+  width: 160px;
+  position: absolute;
+  margin-left: 1%;
+  width: 250px;
+  height: 80px;
+  top: 5px;
+  line-height: 80px;
+  
+}
+.slide{
+width: 100%;
+height: 300px;
+ }
+nav ul{
+  float: right;
+  margin-right: 25px;
+  padding-bottom: 10px;
+  
+}
+nav ul li{
+  display: inline-block;
+  line-height:80px;
+  margin: 0 15px;
+  font-size: 25px;
+  
+}
+nav ul li a{
+  color:black;
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: gray;
+}
+h1{
+  text-align: center;
+}
+
+.slide{
+  display: block;
+  width: 100%;
+  margin: auto;
+    }
+.pre{
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 35%;
+  margin-left: 4%;
+  
+  padding: 10px;
+  font-size: 30px;
+}
+.next{
+  right: 0;
+  margin-right: 10%;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 35%;
+  padding: 10px;
+  font-size: 30px;
+}
+.next:hover,.pre:hover{
+background: rgba(117, 176, 134, 0.42);
+}
+.slide{
+  display: none;
+}
+.container{
+  margin-bottom: 15px;
+}
+.hrr{
+  width: 100%;
+  border: 1px solid blue;
+}
